@@ -2,7 +2,7 @@ import { ThemeProvider } from "@/components/theme/theme-provider"
 import { Toaster } from "@/components/ui/toaster"
 import { cn } from "@/lib/utils"
 import type { Metadata, Viewport } from "next"
-import { zpix } from "./fonts"
+// import { zpix } from "./fonts"
 import { Geist } from 'next/font/google'
  
 const geist = Geist({
