@@ -3,6 +3,11 @@ import { Toaster } from "@/components/ui/toaster"
 import { cn } from "@/lib/utils"
 import type { Metadata, Viewport } from "next"
 import { zpix } from "./fonts"
+import { Geist } from 'next/font/google'
+ 
+const geist = Geist({
+  subsets: ['latin'],
+})
 import "./globals.css"
 import { Providers } from "./providers"
 import { FloatMenu } from "@/components/float-menu"
@@ -82,7 +87,7 @@ export default function RootLayout({
       </head>
       <body 
         className={cn(
-          zpix.variable,
+          geist.className,
           "font-zpix min-h-screen antialiased",
           "bg-background text-foreground",
           "transition-colors duration-300"
