@@ -4,7 +4,7 @@ import "dotenv/config";
 const CF_ACCOUNT_ID = process.env.CLOUDFLARE_ACCOUNT_ID!;
 const CF_API_TOKEN = process.env.CLOUDFLARE_API_TOKEN;
 const CUSTOM_DOMAIN = process.env.CUSTOM_DOMAIN;
-const PROJECT_NAME = process.env.PROJECT_NAME || "FleexMail";
+const PROJECT_NAME = process.env.PROJECT_NAME || "fleex-mail";
 const DATABASE_NAME = process.env.DATABASE_NAME || "FleexMail-db";
 const KV_NAMESPACE_NAME = process.env.KV_NAMESPACE_NAME || "FleexMail-kv";
 const DATABASE_ID = process.env.DATABASE_ID;
