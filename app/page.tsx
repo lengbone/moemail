@@ -21,11 +21,11 @@ export default async function Home() {
               <div className="space-y-4">
                 <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-wider">
                   <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary to-purple-600">
-                    MoeMail
+                    FleexMail
                   </span>
                 </h1>
                 <p className="text-lg sm:text-xl text-gray-600 dark:text-gray-300 tracking-wide">
-                  萌萌哒临时邮箱服务
+                  安全、便捷的临时邮箱解决方案
                 </p>
               </div>
 
@@ -33,17 +33,17 @@ export default async function Home() {
                 <FeatureCard
                   icon={<Shield className="w-5 h-5" />}
                   title="隐私保护"
-                  description="保护您的真实邮箱地址"
+                  description="保护您的真实邮箱地址，防止垃圾邮件骚扰"
                 />
                 <FeatureCard
                   icon={<Mail className="w-5 h-5" />}
                   title="即时收件"
-                  description="实时接收邮件通知"
+                  description="实时接收邮件通知，不错过任何重要信息"
                 />
                 <FeatureCard
                   icon={<Clock className="w-5 h-5" />}
                   title="自动过期"
-                  description="到期自动失效"
+                  description="邮箱自动失效，无需手动管理，安全无忧"
                 />
               </div>
 

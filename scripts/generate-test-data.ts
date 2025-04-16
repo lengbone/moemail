@@ -47,7 +47,7 @@ async function generateTestData(env: Env, userIdentifier: string) {
     // 生成测试邮箱
     const testEmails = Array.from({ length: MAX_EMAIL_COUNT }).map(() => ({
       id: crypto.randomUUID(),
-      address: `${nanoid(6)}@moemail.app`,
+      address: `${nanoid(6)}@FleexMail.app`,
       userId: userId,
       createdAt: now,
       expiresAt: new Date(now.getTime() + 24 * 60 * 60 * 1000),
